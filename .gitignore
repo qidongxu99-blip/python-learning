@@ -1,0 +1,40 @@
+# Python 字节码和编译文件（运行时自动生成，不用上传）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 打包相关
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 虚拟环境（本地装依赖用的隔离环境，不用上传）
+venv/
+.venv/
+env/
+ENV/
+
+# 环境变量文件（可能含密钥，不能上传）
+.env
+.env.local
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# macOS 系统文件
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
